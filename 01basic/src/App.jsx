@@ -1,15 +1,23 @@
 import React from "react"
-import FunctionalComponent from './components/FunctionalComponet'
-import ClassComponent from "./components/ClassComponent"
+import Welcome from "./props/Welcome"
+import Welcome2 from "./props/Welcome2"
+
 
 function App() {
   
 
   return (
     <>
-    {/* COMPONENTS */}
+     {/* COMPONENTS 
     <FunctionalComponent/>
-    <ClassComponent/>
+    <ClassComponent/>  */}
+
+    {/* PROPS */}
+    <Welcome name="Chhaya">
+      <p>This is children props</p>
+    </Welcome>
+
+    <Welcome2 name="Jaa Babu"/>
     </>
   )
 }

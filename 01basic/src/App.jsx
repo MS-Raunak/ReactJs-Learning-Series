@@ -16,6 +16,7 @@ import ListRenderDemo from "./list-rendering/ListRenderDemo"
 import PersonDisplayList from "./list-rendering/Person"
 import PersonObjList from "./list-rendering/PersonList"
 import StyleComponent from "./css-styling/StyleComponent"
+import Demo from "./list-rendering/Demo"
 
 function App() {
 
@@ -52,11 +53,13 @@ function App() {
       <CondRender4 />*/}
 
       {/* List Rendering >>>>>>>>>>>>>  
+      <Demo/>
       <ListRenderDemo />
       <PersonObjList /> */}
 
-      {/* CSS IN REACT >>>>>>>>>>>>>  */}
-      <StyleComponent />
+      {/* CSS IN REACT >>>>>>>>>>>>>  
+      <StyleComponent /> */}
+
     </>
   )
 }

@@ -11,7 +11,7 @@ function TodoComponent() {
         setInputValue(event.target.value);
     };
 
-    //Add task in the todo list
+    //Add task into the todo list
     const addTaskHandler = () => {
         if (inputValue.trim() !== '') {
             if (isEditing) {

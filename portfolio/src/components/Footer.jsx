@@ -1,7 +1,7 @@
 import React from 'react'
 import "./FooterStyle.css"
 import { FaFacebook, FaGit, FaGithub, FaHome, FaInstagram, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
-
+import { NavLink } from 'react-router-dom'
 function Footer() {
   return (
     <div className='footer'>
@@ -17,25 +17,28 @@ function Footer() {
             <div className="phone">
                 <h4>
                     <FaPhone size={20} style={{color:'#fff', marginRight:'2rem'}}/>
-                    +91-5672-78621
+                    +918809197034
                 </h4>
             </div>
             <div className="phone">
                 <h4>
-                    
                     <FaMailBulk size={20} style={{color:'#fff', marginRight:'2rem'}}/>
-                    @ms@gmail.com
+                    raunakkr.saha@gmail.com
                 </h4>
             </div>
         </div>
         <div className="right">
             <h4>About Me</h4>
-            <p>This is Raunak Kumar, Recent graduate with Computer Science & Enginnering and skilled in both backend and frontend development and currently seeking an opportunities as a Full Stack Developer.</p>
+            <p>
+            Hi, I'm Raunak Kumar, a recent graduate in Computer Science & Engineering. I have skills in both backend and frontend development and am currently seeking opportunities as a Full Stack Developer.
+            </p>
             <div className="social">
                 <FaFacebook size={30} style={{color:'#fff', marginRight:'1rem'}}/>
                 <FaTwitter size={30} style={{color:'#fff', marginRight:'1rem'}}/>
                 <FaInstagram size={30} style={{color:'#fff', marginRight:'1rem'}}/>
+                <NavLink to="https://github.com/MS-Raunak?tab=repositories">
                 <FaGithub size={30} style={{color:'#fff', marginRight:'1rem'}}/>
+                </NavLink>
             </div>
         </div>
       </div>

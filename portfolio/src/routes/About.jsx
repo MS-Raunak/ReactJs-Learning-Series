@@ -8,7 +8,7 @@ function About() {
   return (
     <div>
       <Navbar/>
-      <HeroImg2 heading="ABOUT" text="Certified Full Stack Developer"/>
+      <HeroImg2 heading="ABOUT" text="Certified Java Full Stack Developer"/>
       <AboutContent />
       <Footer/>
     </div>

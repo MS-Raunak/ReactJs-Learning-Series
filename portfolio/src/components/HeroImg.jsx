@@ -13,11 +13,11 @@ function HeroImg() {
 
       <div className="content">
         <p>Hi, I am Raunak</p>
-        <h1>React Developer</h1>
-        <div>
+        <h1>Java Full Stack Developer</h1>
+        <div className='btns'>
             <Link to="/project" className='btn'>Projects</Link>
-            <Link href="./resume.pdf" download="resume.pdf" className='btn btn-light'>Resume
-              <i class="fa fa-download"></i>
+            <Link to="/contact" className='btn btn-light'>Contact
+              {/* <i class="fa fa-download"></i> */}
             </Link>
         </div>
       </div>

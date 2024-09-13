@@ -9,7 +9,12 @@ function AboutContent() {
     <div className='about'>
       <div className="left">
         <h1>Who am I?</h1>
-        <p>I am a java full stack developer</p>
+        <p>- Java Full Stack Developer.</p>
+        <p>- B.Tech in Computer Science Engineering, MPCT College, Gwalior, 2019-2023</p>
+        <p>- <strong>Backend Technologies:</strong> Core Java, Spring Boot, Hibernate, Jpa, Spring MVC, Spring Security, JDBC, Servlet. </p>
+        <p>- <strong>Frontend Technologies:</strong> HTML, CSS, JavaScript, ReactJs, Bootstrap, Thymeleaf, JSP.</p>
+        <p>- <strong>Database Technologies:</strong> MySQL, Oracle</p>
+        
         <Link to="/contact">
             <button className='btn'>Contact</button>
         </Link>

@@ -41,7 +41,7 @@ export class Service {
         }
     }
 
-    async deletePost(slug) {
+    async deletePost(slug) {  //here slug is id for particular entity
         try {
             await this.databases.deleteDocument(
                 conf.appWriteDatabaseID,
